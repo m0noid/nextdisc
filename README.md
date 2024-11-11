@@ -148,4 +148,4 @@ Disclaimer
 
 This tool is intended for educational and ethical use only. Ensure you have proper authorization before analyzing any website or application.
 
-Feel free to customize the placeholder https://github.com/yourusername/nextdisc.git with your actual repository URL and modify the details as needed!
+Feel free to customize the placeholder https://github.com/nullrax/nextdisc.git with your actual repository URL and modify the details as needed!

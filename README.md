@@ -36,7 +36,7 @@ pip install requests
 Clone the Repository
 
 ```
-git clone https://github.com/nullrax/nextdisc.git
+git clone https://github.com/m0noid/nextdisc.git
 cd nextdisc
 ```
 
@@ -124,7 +124,7 @@ Local Development
 	2.	Clone your fork:
 
 ```
-git clone https://github.com/nullrax/nextdisc.git
+git clone https://github.com/m0noid/nextdisc.git
 cd nextdisc
 ```
 
@@ -148,4 +148,4 @@ Disclaimer
 
 This tool is intended for educational and ethical use only. Ensure you have proper authorization before analyzing any website or application.
 
-Feel free to customize the placeholder https://github.com/nullrax/nextdisc.git with your actual repository URL and modify the details as needed!
+Feel free to customize the placeholder https://github.com/m0noid/nextdisc.git with your actual repository URL and modify the details as needed!

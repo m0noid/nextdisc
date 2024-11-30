@@ -4,28 +4,19 @@ NextDisc is a lightweight and powerful tool for discovering information about ap
 
 Features
 
-	•	Extracts valuable information from:
-	•	_buildManifest.js: Contains static route definitions.
-	•	_ssgManifest.js: Lists statically generated routes.
-	•	_middlewareManifest.js: Provides middleware route information.
-	•	__NEXT_DATA__: Embedded JSON object with page and query data.
-	•	routes-manifest.json: Lists all dynamic and static routes.
-	•	Flexible input:
-	•	Accepts URLs via command-line arguments.
-	•	Supports piped input from stdin.
-	•	Configurable options:
-	•	Custom User-Agent string.
-	•	Adjustable timeout for HTTP requests.
-	•	Verbose mode for detailed logging.
-	•	Output results to a file.
-	•	Built for modularity and extensibility.
+
+- _buildManifest.js: Contains static route definitions.
+- _ssgManifest.js: Lists statically generated routes.
+-  _middlewareManifest.js: Provides middleware route information.
+-  __NEXT_DATA__: Embedded JSON object with page and query data.
+-  routes-manifest.json: Lists all dynamic and static routes.
 
 Installation
 
 Prerequisites
 
-	•	Python 3.6+
-	•	pip (Python package installer)
+-	Python 3.6+
+-	pip (Python package installer)
 
 Install Required Dependencies
 
@@ -70,25 +61,25 @@ python3 nextdisc.py < urls.txt
 
 Command-Line Options
 
-	•	-o / --output: Write results to a file.
+	-	-o / --output: Write results to a file.
 
 ```
 python3 nextdisc.py https://example.com -o output.txt
 ```
 
-	•	-u / --user-agent: Use a custom User-Agent string.
+	-	-u / --user-agent: Use a custom User-Agent string.
 
 ```
 python3 nextdisc.py https://example.com -u "MyCustomAgent/1.0"
 ```
 
-	•	-t / --timeout: Set a timeout for HTTP requests (default: 10 seconds).
+	-	-t / --timeout: Set a timeout for HTTP requests (default: 10 seconds).
 
 ```
 python3 nextdisc.py https://example.com -t 5
 ```
 
-	•	-v / --verbose: Enable verbose logging for debugging.
+	-	-v / --verbose: Enable verbose logging for debugging.
 
 ```
 python3 nextdisc.py https://example.com -v

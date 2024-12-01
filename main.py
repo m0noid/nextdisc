@@ -8,7 +8,7 @@ from Core import nextDiscFunctions
 
 
 def main():
-    parser = argparse.ArgumentParser(description='nextdisc v1.0\nBy m0noid')
+    parser = argparse.ArgumentParser(description='nextdisc v1.0\nBy rodwx')
     parser.add_argument('url', nargs='*', help='URL(s) for processing')
     parser.add_argument('-o', '--output', help='output')
     parser.add_argument('-u', '--user-agent', default='nextdisc/1.0', help='User-Agent')
